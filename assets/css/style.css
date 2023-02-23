@@ -3,102 +3,105 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-  }
-  
-  body {
+}
+
+body {
     background-color: #d9dcd6;
-  }
-  
-  .navigation-bar {
+}
+
+.navigation-bar {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
-  }
+}
 
-  .navigation-bar h1 {
+.navigation-bar h1 {
     display: inline;
     font-size: 48px;
-  }
-  
-  .navigation-bar h1 .seo {
+}
+
+.navigation-bar h1 .seo {
     color: #d9dcd6;
-  }
-  
-  .navigation-bar div {
+}
+
+.navigation-bar div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-  }
-  
-  .navigation-bar div ul {
+}
+
+.navigation-bar div ul {
     list-style-type: none;
     vertical-align: right;
-  }
-  
-  .navigation-bar div ul li {
+}
+
+.navigation-bar div ul li {
     display: inline-block;
     margin-left: 25px;
     
-  }
-  
-  a {
+}
+
+a {
     color: #ffffff;
     text-decoration: none;
     display: inline;
     
-  }
-  
-  p {
+}
+
+p {
     font-size: 16px;
-  }
-  
-  .hero {
+}
+
+.hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
-  }
-  
-  .float-left {
+}
+
+.float-left {
     float: left;
     margin-right: 25px;
-  }
-  
-  .float-right {
+}
+
+.float-right {
     float: right;
     margin-left: 25px;
-  }
+}
+
   /* Changed order of CSS properties to follow HTML structure. */
-  .content {
+.content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
-  }
-  
-  .main-content {
+}
+
+/* Created one class of main-content to reflect changes in the main part of the webpage.
+Code is more clear and organized.*/
+.main-content {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-  }
-  
-  .main-content img {
+}
+
+.main-content img {
     max-height: 200px;
-  }
-  
-  .main-content h2 {
+}
+
+.main-content h2 {
     margin-bottom: 20px;
     font-size: 36px;
-  }
-  
-  .benefits {
+}
+
+.benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -107,38 +110,39 @@
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-  }
-  
-  .individual-benefits {
+}
+
+.individual-benefits {
     margin-bottom: 32px;
     color: #ffffff;
-  }
-  /* Made CSS file more concise by creating one class under individual-benefits 
+}
+
+/* Made CSS file more concise by creating one class under individual-benefits 
   to use in multiple parts of the code. */
-  
-  .individual-benefits h3 {
+
+.individual-benefits h3 {
     margin-bottom: 10px;
     text-align: center;
-  }
-  
-  .individual-benefits img {
+}
+
+.individual-benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-  }
-  /* Created one class of main-content to reflect changes in the main part of the webpage.
-  Code is more clear and organized.*/
-  
-  .footer {
+}
+
+
+
+.footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-  }
+}
 
   /* Having removed the h2 element, footer now follows structural hierarchy */
-  
-  .first-footer {
+
+.first-footer {
     font-size: 20px;
     font-weight: bold;
-  }
+}
